@@ -1,4 +1,0 @@
-Student ID: 2213111152
-Passakorn Saewong
-AKA: Ton
-ClassDetil: Control Statement & Confirm Dialog
