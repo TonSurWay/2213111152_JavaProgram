@@ -1,4 +1,5 @@
+Date: 08-Dec-2022
 Student ID: 2213111152
 Passakorn Saewong
 AKA: Ton
-ClassDetil: String Methods and Defined Method
+ClassDetil: User-Defined Method with String
