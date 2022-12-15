@@ -23,7 +23,7 @@ public class Lab_504 {
 			}
 		}
 
-		return lastname.toUpperCase();
+		return lastname;
 	}
 
 }
