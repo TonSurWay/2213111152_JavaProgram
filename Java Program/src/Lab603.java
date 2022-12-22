@@ -6,7 +6,7 @@ public class Lab603 {
 
 	public static void main(String[] args) {
 		System.out.print("Input index of array : ");
-		int indexofArray = sc.nextInt()();
+		int indexofArray = sc.nextInt();
 		while(indexofArray < 0 || indexofArray > (numberofInteger.length-1)) {
 			System.out.print("Input index of array, again : ");
 			indexofArray = sc.nextInt();
