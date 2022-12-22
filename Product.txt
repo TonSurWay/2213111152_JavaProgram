@@ -1,0 +1,42 @@
+public class Product {
+	public String id;
+	public int unit;
+	public double price;
+
+	public void setId(String ID) {
+		id = ID;
+	}
+
+	public String getId() {
+		return id;
+	}
+
+	public void setUnit(int UNIT) {
+		unit = UNIT;
+	}
+
+	public int getUnit() {
+		return 0;
+	}
+
+	public boolean checkUnit() {
+		return unit > 0;
+	}
+
+	public void setPrice(double PRICE) {
+		price = PRICE;
+	}
+
+	public double getPRice() {
+		return price;
+	}
+
+	public boolean checkPrice() {
+		return price > 0;
+	}
+
+	public double calculate() {
+		double total = unit * price;
+		return total;
+	}
+}
