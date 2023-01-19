@@ -15,8 +15,8 @@ public class AuthorDemo2 {
 			String name = sc.nextLine();
 			System.out.print("Input author e-mail : ");
 			String email = sc.nextLine();
-			Line();
-
+			Line(); 
+			author[i] = new Author(name, email);
 		}
 		for (int i = 0; i < author.length; i++) {
 			System.out.println((i+1)+author[i].getName() + "(" + author[i].getEmail() + ")");
