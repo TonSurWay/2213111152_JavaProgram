@@ -110,12 +110,12 @@ public class CalculateTwoNumber extends JFrame {
 		ButtonGroup group = new ButtonGroup();
 		group.add(OneDigit);
 		group.add(TwoDigit);
-		
+
 		JLabel lblOption = new JLabel("Option to show");
 		lblOption.setFont(new Font("Tahoma", Font.PLAIN, 14));
 		lblOption.setBounds(45, 269, 145, 45);
 		contentPane.add(lblOption);
-		
+
 		final JCheckBox chckDialog = new JCheckBox("Show Result at DialogBox");
 		chckDialog.setFont(new Font("Tahoma", Font.PLAIN, 12));
 		chckDialog.setBounds(200, 282, 175, 25);
@@ -150,10 +150,10 @@ public class CalculateTwoNumber extends JFrame {
 					}
 
 					lblResult.setText(frmNumber.format(sum));
-					
-					//JCheckBox
-					if(chckDialog.isSelected()) {
-						JOptionPane.showMessageDialog(null, "Result is : "+frmNumber.format(sum));
+
+					// JCheckBox
+					if (chckDialog.isSelected()) {
+						JOptionPane.showMessageDialog(null, "Result is : " + frmNumber.format(sum));
 					}
 				}
 			}
@@ -169,7 +169,6 @@ public class CalculateTwoNumber extends JFrame {
 		});
 		btnButton1.setBounds(387, 320, 100, 30);
 		contentPane.add(btnButton1);
-		
 
 	}
 }
