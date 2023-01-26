@@ -1,5 +1,5 @@
-Date: 19-Jan-2023
+Date: 26-Jan-2023
 Student ID: 2213111152
 Passakorn Saewong
 AKA: Ton
-ClassDetil: Encapsulation
+ClassDetil: Compostion and inheritance
